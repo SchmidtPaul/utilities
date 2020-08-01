@@ -3,16 +3,16 @@ The SAS macros `%get_one_big_omega` and `%get_Smith_weights` are taken directly 
 
 You may run the macro directly from SAS without donwloading it (given you have internet access) as:
 
-*%get_Smith_weights*
-`
+**%get_Smith_weights**
+```
 FILENAME file_get_Smith_weights URL 
    'https://raw.githubusercontent.com/SchmidtPaul/utilities/master/SAS%20macros/get_Smith_weights.sas';
 %INCLUDE file_get_Smith_weights;
-`
+```
 
-*%get_one_big_omega*
-`
+**%get_one_big_omega**
+```
 FILENAME file_get_one_big_omega URL 
    'https://raw.githubusercontent.com/SchmidtPaul/utilities/master/SAS%20macros/get_one_big_omega.sas';
 %INCLUDE file_get_one_big_omega;
-`
+```
